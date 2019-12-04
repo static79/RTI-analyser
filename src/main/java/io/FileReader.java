@@ -1,4 +1,4 @@
-package de.tbitss.rtianalyse.io
+package de.tbitss.analyse.io;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
