@@ -1,4 +1,4 @@
-package de.tbitss.rtianalyse.analyse;
+package de.tbitss.rtianalyse;
 
 import java.util.ArrayList;
 import java.util.List;
