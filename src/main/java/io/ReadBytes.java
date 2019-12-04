@@ -1,4 +1,4 @@
-package de.tbitss.rtianalise.io;
+package de.tbitss.analyse.io;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
