@@ -1,4 +1,4 @@
-package de.tbitss.rtianalyze.io;
+package de.tbitss.rtianalyse.io;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
