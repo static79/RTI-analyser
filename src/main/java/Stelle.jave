@@ -1,0 +1,17 @@
+package de.tbitss.rtianalyse.analyse;
+
+public class Stelle {
+
+    public String offset;
+    public int sample;
+
+    public void setSample(String sample) {
+        int decimal = 0;
+        for (short i=0; i<sample.length(); i++) {
+            decimal *= 16;
+            char c = sample.charAt(i);
+            decimal += c - 48 < 10 ? c - 48 : c - 48 - 7;
+        }
+        this.sample = decimal;
+    }
+}
